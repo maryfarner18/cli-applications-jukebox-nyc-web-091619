@@ -47,8 +47,14 @@ def run
   until resp == "exit" do
     case(resp)
     when "list"
+      list(songs)
     when "play"
+      play(songs)
     when "help"
+      help
+    when "exit"
+     
+    else
   end
   
 end
