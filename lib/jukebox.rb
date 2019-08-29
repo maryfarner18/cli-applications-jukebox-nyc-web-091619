@@ -17,13 +17,18 @@ def help
   puts "-exit: exits this program"
 end
 
-def play
+def list(songs)
+  songs.each_with_index do |song, index|
+    puts "#{index + 1}. #{song}"
+  end
 end
 
-def list(songs)
-  do songs.each_with_index do |song, index|
+def play(songs)
+  puts "Please enter a song name or number:"
+  answer = gets.strip
+  if answer.to_I 
 end
-end
+
 
 def exit_jukebox
 end
