@@ -46,15 +46,15 @@ def run
   
   do
     case(resp)
-    when "list"
-      list(songs)
-    when "play"
-      play(songs)
-    when "help"
-      help
-    when "exit"
-      exit_jukebox
-    else
+      when "list"
+        list(songs)
+      when "play"
+        play(songs)
+      when "help"
+        help
+      when "exit"
+        exit_jukebox
+      else
       
   end
 
