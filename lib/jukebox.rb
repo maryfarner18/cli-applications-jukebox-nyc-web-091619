@@ -54,7 +54,10 @@ def run
         help
       when "exit"
         exit_jukebox
+        break
       else
+        puts "Sorry, that's not a valid input"
+    end
       
   end
 
