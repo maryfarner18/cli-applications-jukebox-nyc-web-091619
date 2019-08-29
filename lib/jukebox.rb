@@ -31,7 +31,7 @@ def play(songs)
   index = answer.to_i
   puts index
   if answer.to_i > 0 && answer.to_i <= songs.length then
-    puts "Playing #{songs[answer.to_i + 1]}"
+    puts "Playing #{songs[answer.to_i - 1]}"
   elsif songs.any?(answer) then
     puts "Playing #{answer}"
   else
