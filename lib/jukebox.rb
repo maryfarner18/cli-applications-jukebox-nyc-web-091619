@@ -44,7 +44,11 @@ def run
   puts "Please enter a command"
   resp = gets.strip
   
-  case(answer)
-    
+  until resp == "exit" do
+    case(resp)
+    when "list"
+    when "play"
+    when "help"
+  end
   
 end
