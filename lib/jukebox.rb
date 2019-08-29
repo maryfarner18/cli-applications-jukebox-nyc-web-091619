@@ -41,9 +41,8 @@ def exit_jukebox
 end
 
 def run 
-  
-  
-  do
+
+  while true do
     puts "Please enter a command"
     resp = gets.strip
     case(resp)
@@ -58,11 +57,7 @@ def run
         break
       else
         puts "Sorry, that's not a valid input"
-    end
-    
-    
-      
+      end
   end
 
-  
 end
