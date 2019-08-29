@@ -28,7 +28,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   answer = gets.strip
-  index = answer.to_i - 1
+  index = answer.to_i
   puts index
   if index > 0 && index <= songs.length then
     puts "Playing #{songs[index] - 1]}"
