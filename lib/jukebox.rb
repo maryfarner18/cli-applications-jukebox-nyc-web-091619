@@ -44,7 +44,7 @@ def run
   puts "Please enter a command"
   resp = gets.strip
   
-  until resp == "exit" do
+  do
     case(resp)
     when "list"
       list(songs)
@@ -53,9 +53,10 @@ def run
     when "help"
       help
     when "exit"
-     
+      exit_jukebox
     else
       
   end
+
   
 end
