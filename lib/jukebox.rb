@@ -46,7 +46,7 @@ end
 def run(songs)
 
   while true do
-    puts "Please enter a command"
+    puts "Please enter a command:"
     resp = gets.strip
     case(resp)
       when "list"
