@@ -33,7 +33,7 @@ def play(songs)
   elsif songs.any?(answer) then
     puts "Playing #{answer}"
   else
-    "Invalid input, please try again"
+    puts "Invalid input, please try again"
   end
 end
 
