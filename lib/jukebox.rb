@@ -11,7 +11,7 @@ songs = [
 ]
 
 def help
-  puts 'I accept the following commands:\n- help: displays this help message\n- list: displays a list of songs you can play\n- exit: exits this program"
+  puts "sI accept the following commands:\n- help: displays this help message\n- list: displays a list of songs you can play\n- exit: exits this program"
 end
 
 def list(songs)
