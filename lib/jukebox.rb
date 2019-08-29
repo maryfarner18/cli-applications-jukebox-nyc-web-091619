@@ -41,10 +41,11 @@ def exit_jukebox
 end
 
 def run 
-  puts "Please enter a command"
-  resp = gets.strip
+  
   
   do
+    puts "Please enter a command"
+    resp = gets.strip
     case(resp)
       when "list"
         list(songs)
@@ -58,6 +59,8 @@ def run
       else
         puts "Sorry, that's not a valid input"
     end
+    
+    
       
   end
 
