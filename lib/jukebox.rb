@@ -42,4 +42,5 @@ end
 
 def run 
   puts "Please enter a command"
+  resp = gets.strip
 end
